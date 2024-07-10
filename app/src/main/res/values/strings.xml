@@ -1,0 +1,46 @@
+<resources>
+    <string name="app_name">Numble</string>
+    <string name="how_to_play_content">
+         "Oyunun Amacı:\n"
+    "Bu oyun, bilgisayarın tuttuğu üç basamaklı, rakamları birbirinden farklı bir sayıyı tahmin etmeye dayanır.\n\n"
+    " Kurallar:\n"
+    "1. Bilgisayarın Sayısı:\n"
+    "\t- Bilgisayar, üç basamaklı ve rakamları birbirinden farklı bir sayı tutar. Örneğin, 123 veya 758.\n\n"
+    "2. Tahmin Yapma:\n"
+    "\t- Siz, bu sayıyı tahmin etmeye çalışırsınız. Her tahmininiz de üç basamaklı ve rakamları birbirinden farklı olmalıdır.\n" 
+    "\t- Örneğin: 135, 247 gibi.\n\n"
+    "3. İpuçları:\n"
+    "\t- Her tahmininizden sonra bilgisayar size iki tür ipucu verir:\n"
+    "\t\t- Doğru Yer: Tahmininizdeki rakamlardan kaç tanesinin hem doğru rakam hem de doğru yerde olduğunu gösterir.\n"
+    "\t\t- Yanlış Yer: Tahmininizdeki rakamlardan kaç tanesinin doğru rakam olup yanlış yerde olduğunu gösterir.\n"
+    "\t- İpuçları şu şekilde verilir:\n"
+    "\t\t- +: Doğru yerde olan rakam sayısını belirtir.\n"
+    "\t\t- -: Yanlış yerde olan fakat doğru olan rakam sayısını belirtir.\n\n"
+    "Örnek Oyun:\n"
+    "- Bilgisayarın tuttuğu sayı: 123\n"
+    "- Sizin tahmininiz: 135\n"
+    "\t- Bilgisayarın verdiği ipucu: +1, -1\n"
+    "\t\t- (1 rakamı doğru yerde, 3 rakamı doğru fakat yanlış yerde)\n"
+    "- Sizin tahmininiz: 231\n"
+    "\t- Bilgisayarın verdiği ipucu: +0, -3\n"
+    "\t\t- (2, 3 ve 1 rakamları doğru fakat yanlış yerde)\n\n"
+    "İpuçlarını Anlama:\n"
+    "- +2: İki rakam doğru yerde.\n"
+    "- -1: Bir rakam doğru fakat yanlış yerde.\n"
+    "- 0: Hiçbir rakam doğru değil.\n\n"
+    "Oyunu Kazanma:\n"
+    "- Tahminleriniz sonucunda doğru rakamları doğru yerlerde bulduğunuzda oyunu kazanırsınız.\n"
+    "- Örneğin, tahmininiz 123 ve bilgisayarın tuttuğu sayı da 123 ise, doğru tahmini yapmış olursunuz ve oyunu kazanırsınız.\n\n"
+    "İyi Eğlenceler!\n"
+    </string>
+
+
+    <string name="play_button_text">Oyna</string>
+    <string name="how_to_play_button_text">Nasıl Oynanır</string>
+    <string name="settings_button_text">Ayarlar</string>
+    <string name="volume_down_description">Sesi Azalt</string>
+    <string name="volume_up_description">Sesi Arttır</string>
+    <string name="turkish_flag_description">Türkçe</string>
+    <string name="english_flag_description">İngilizce</string>
+
+</resources>
