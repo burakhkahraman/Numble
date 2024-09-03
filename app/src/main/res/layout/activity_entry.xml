@@ -2,9 +2,9 @@
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     android:padding="16dp"
-    android:background="@android:color/white"
-    >
+    android:background="@android:color/white">
 
     <ImageView
         android:id="@+id/logoImageView"
@@ -21,6 +21,8 @@
         android:layout_below="@id/logoImageView"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="3dp"
+        android:background="@drawable/gradient_button_background"
+        app:backgroundTint="@null"
         android:text="Oyna"
         android:textSize="20dp"
         android:textColorLink="#ff6750a4"
@@ -33,6 +35,8 @@
         android:layout_height="60dp"
         android:text="Ayarlar"
         android:textSize="20dp"
+        android:background="@drawable/gradient_button_background"
+        app:backgroundTint="@null"
         android:layout_below="@id/playButton"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="16dp" />
@@ -46,6 +50,8 @@
         android:layout_below="@id/settingsButton"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="16dp"
+        android:background="@drawable/gradient_button_background"
+        app:backgroundTint="@null"
         />
 
 </RelativeLayout>
